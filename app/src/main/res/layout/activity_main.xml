@@ -14,5 +14,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Image Picker"/>
+    <Button
+        android:id="@+id/loadVideoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Local and Online File Video"
+        />
+
+    <Button
+        android:id="@+id/singleVideoPickBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Video Pick"/>
+
+    <Button
+        android:id="@+id/multipleVidePickBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiple Video Pick"/>
 
 </LinearLayout>

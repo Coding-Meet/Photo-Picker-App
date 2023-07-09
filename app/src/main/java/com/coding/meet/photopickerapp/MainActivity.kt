@@ -15,5 +15,21 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,ImageActivity::class.java))
         }
 
+        val loadVideoBtn = findViewById<Button>(R.id.loadVideoBtn)
+        loadVideoBtn.setOnClickListener {
+            startActivity(Intent(this,LoadVideoActivity::class.java))
+        }
+
+
+        val singleVideoPickBtn = findViewById<Button>(R.id.singleVideoPickBtn)
+        singleVideoPickBtn.setOnClickListener {
+            startActivity(Intent(this,SingleVideoPickActivity::class.java))
+        }
+
+        val multiplePickBtn = findViewById<Button>(R.id.multipleVidePickBtn)
+        multiplePickBtn.setOnClickListener {
+            startActivity(Intent(this,MultipleVideoPickActivity::class.java))
+        }
+
     }
 }
